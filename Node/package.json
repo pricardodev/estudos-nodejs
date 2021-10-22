@@ -1,8 +1,31 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Api em Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "production": "pm2 start index.js --name Knowledge-backend"
+  },
+  "keywords": [],
+  "author": "Paulo Ricardo",
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.23.0",
+    "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "lodash": "^4.17.21"
+    "jwt-simple": "^0.5.6",
+    "knex": "^0.95.11",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.12",
+    "node-schedule": "^2.0.0",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.7.1",
+    "pm2": "^5.1.2"
   }
 }
